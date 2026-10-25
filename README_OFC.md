@@ -107,7 +107,7 @@ Depois execute os notebooks nesta ordem:
 Uma das principais limitação da base dados é o desbaleceamento da qualidade dos vinhos,que nos trabalhos futuros podem usar o balanceamento para analisar ganho de eficiencia. E o ideal no processo é acompanhar a maturação da uva e a fermentação para monitorar o teor alcoólico, controlar oxigênio, temperatura e higiene do processo para reduzir a acidez volátil e garantir níveis adequados de sulfatos para preservar a qualidade do vinho.
 
 ### 7. Estrutura do repositório
-.
+
 ├── data/          dados brutos (raw) e tratados (processed) — não versionados
 
 ├── notebooks/     análise
