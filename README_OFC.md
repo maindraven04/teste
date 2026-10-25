@@ -109,7 +109,9 @@ Uma das principais limitação da base dados é o desbaleceamento da qualidade d
 ### 7. Estrutura do repositório
 .
 ├── data/          dados brutos (raw) e tratados (processed) — não versionados
+
 ├── notebooks/     análise
+
 └── docs/          apresentação executiva
 
 ### 8. Tecnologias
