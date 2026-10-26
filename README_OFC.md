@@ -30,11 +30,13 @@
 
 ### 3. O problema
 
-A avaliação sensorial de vinhos depende da disponibilidade de especialistas experientes, o que pode tornar o processo demorado, caro e sujeito a variações entre avaliadores. Além disso, reunir um painel de especialistas para analisar grandes volumes de amostras nem sempre é viável. Nesse contexto, o uso de características físico-químicas do vinho, associado a técnicas de machine learning, permite prever sua qualidade de forma rápida e consistente. Essa abordagem reduz a dependência de avaliações humanas, aumenta a velocidade de análise e possibilita decisões mais eficientes na classificação de vinhos.
+A avaliação sensorial de vinhos depende de especialistas experientes, o que a torna demorada, cara e sujeita a variações entre avaliadores. Além disso, reunir um painel para analisar grandes volumes de amostras nem sempre é viável. Nesse contexto, o uso de características físico-químicas combinado a técnicas de Machine Learning permite prever a qualidade do vinho de forma rápida e consistente, reduzindo a dependência de avaliações humanas e apoiando decisões mais eficientes de classificação.
 
 #### Variável alvo
 
-A variável alvo definida foi a coluna **Quality**, pois ela informa a qualidade do vinho. Com base nas características físico-químicas, e os modelos de machine learning podem prever a qualidade de novos vinhos. lembrando que na base de dados identificamos que existe apenas uma pequena quantidade de vinhos classificado como alta qualidade, e uma grande quantidade de vinhos classificada como baixa/média qualidade.
+A variável alvo é a coluna quality (nota de 3 a 8), convertida em duas categorias: alta qualidade (nota ≥ 7) e baixa/média qualidade (nota < 7). A base é desbalanceada: apenas cerca de 13% dos vinhos  são de alta qualidade. Por isso, a acurácia sozinha engana, já que um modelo que classificasse todos os vinhos como baixa/média acertaria cerca de 87%. A avaliação dos modelos usa o F1-score da classe alta, junto com precisão e recall, em vez de apenas a acurácia. Limitações e próximos passos
+Uma das principais limitação da base dados é o desbaleceamento da qualidade dos vinhos,que nos trabalhos futuros podem usar o balanceamento para analisar ganho de eficiencia. Além disso, recomenda-se confirmar com validação cruzada se todas as variáveis são realmente necessárias no modelo de ML.
+E o ideal no processo é acompanhar a maturação da uva e a fermentação para monitorar o teor alcoólico, controlar oxigênio, temperatura e higiene do processo para reduzir a acidez volátil e garantir níveis adequados de sulfatos para preservar a qualidade do vinho.
 
 #### Dataset
 
