@@ -87,7 +87,7 @@ Depois execute os notebooks nesta ordem:
 
 <table>
 <tr><th>#</th><th>Notebook</th><th>O que faz</th></tr>
-<tr><td>1</td><td>notebooks/01_eda.ipynb</td><td>Análise exploratória</td></tr>
+<tr><td>1</td><td>notebooks/Analise_Completa.ipynb</td><td>Análise Completa</td></tr>
 </table>
 
 **Semente fixa:** RANDOM_STATE = 42
