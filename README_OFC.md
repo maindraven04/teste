@@ -35,8 +35,11 @@ A avaliação sensorial de vinhos depende de especialistas experientes, o que a 
 #### Variável alvo
 
 A variável alvo é a coluna quality (nota de 3 a 8 atribuída por especialistas), convertida em duas categorias:
+
 •	Alta qualidade: nota ≥ 7;
+
 •	Baixa/média qualidade: nota < 7.
+
 A base é desbalanceada: apenas cerca de 13% dos vinhos são de alta qualidade. Por isso, a acurácia isolada pode enganar (um modelo que classificasse todos os vinhos como baixa/média qualidade acertaria cerca de 87% sem de fato distinguir as classes). Assim, a avaliação dos modelos prioriza o F1-score da classe alta, junto com precisão e recall, em vez de considerar apenas a acurácia.
 
 #### Dataset
