@@ -13,7 +13,7 @@
 
 <table>
 <tr><th>Nome completo</th><th>RM</th><th>E-mail</th></tr>
-<tr><td>Gabriel Alves da Silva</td><td>1</td><td>gasmeas10@gmail.com</td></tr>
+<tr><td>Gabriel Alves da Silva</td><td>RM376192</td><td>gasmeas10@gmail.com</td></tr>
 <tr><td>Dimitria Doi</td><td>2</td><td>dimitria.ro@gmail.com</td></tr>
 <tr><td>Breno Plada Delege</td><td>RM377058</td><td>brenoplada@gmail.com</td></tr>
 <tr><td>Yan Souza Montes</td><td>RM376051</td><td>yansouzamontes@hotmail.com</td></tr>
