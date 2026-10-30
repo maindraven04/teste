@@ -96,9 +96,9 @@ Depois execute os notebooks nesta ordem:
 
 | Modelo | Acurácia | Precisão | Recall | F1 | AUC-ROC |
 |---------|----------|----------|--------|----|---------|
-| Regressão Logística | 0.79 | 0.36 | 0.74 | 0.48 | 0.89 |
-| Árvore de Decisão | 0.85 | 0.44 | 0.59 | 0.51 | 0.75 |
-| Random Forest | 0.86 | 0.49 | 0.70 | 0.58 | 0.92 |
+| Regressão Logística | 0.79 | 0.36 | 0.78 | 0.49 | 0.88 |
+| Árvore de Decisão | 0.81 | 0.40 | 0.78 | 0.52 | 0.79 |
+| Random Forest | 0.86 | 0.49 | 0.78 | 0.60 | 0.92 |
 
 **Modelo escolhido:** Random Forest. O modelo apresentou o melhor desempenho geral entre os avaliados, alcançando os melhores resultados nas métricas analisadas.
 
